@@ -88,10 +88,29 @@ python -m docex.build_geoids ldct all data_folders/GA_less_dev_cencus/extracted/
 python -m docex.build_geoids mz 2024 data_folders/GA_military_zones/extracted/
 
 # Save to output folder
-python -m docex.build_geoids ldct 2024 data_folders/GA_less_dev_cencus/extracted/ -o output/ldct_2024_geoids.csv
+python -m docex.build_geoids ldct 2024 data_folders/GA_less_dev_cencus/extracted/ -o output/ldct/geoids_2024.csv
 ```
 
 GEOID format: `13` (GA) + `177` (Lee County) + `020200` (Tract 202) = `13177020200`
+
+### Pre-generated GEOIDs
+
+```
+output/
+├── ldct/
+│   ├── geoids_2020.csv    (342 unique GEOIDs)
+│   ├── geoids_2021.csv    (488 unique GEOIDs)
+│   ├── geoids_2022.csv    (471 unique GEOIDs)
+│   ├── geoids_2023.csv    (557 unique GEOIDs)
+│   ├── geoids_2024.csv    (492 unique GEOIDs)
+│   └── geoids_all.csv     (1004 unique across all years)
+└── military_zones/
+    ├── geoids_2020.csv    (69 unique GEOIDs)
+    ├── geoids_2022.csv    (83 unique GEOIDs)
+    ├── geoids_2023.csv    (91 unique GEOIDs)
+    ├── geoids_2024.csv    (93 unique GEOIDs)
+    └── geoids_all.csv     (141 unique across all years)
+```
 
 ## Data Sources
 
