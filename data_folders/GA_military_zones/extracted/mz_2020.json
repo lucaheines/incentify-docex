@@ -1,0 +1,350 @@
+{
+  "Bibb": [
+    {
+      "tract": "135.02",
+      "effective_date": "2017-01-01"
+    }
+  ],
+  "Bryan": [
+    {
+      "tract": "9201.01",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "9201.02",
+      "effective_date": "2013-01-01"
+    },
+    {
+      "tract": "9203.03",
+      "effective_date": "2013-01-01"
+    }
+  ],
+  "Camden": [
+    {
+      "tract": "103.01",
+      "effective_date": "2020-01-01"
+    },
+    {
+      "tract": "103.02",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "105.00",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "106.01",
+      "effective_date": "2013-01-01"
+    }
+  ],
+  "Chatham": [
+    {
+      "tract": "107.00",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "108.02",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "40.02",
+      "effective_date": "2012-01-01"
+    },
+    {
+      "tract": "108.03",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "42.07",
+      "effective_date": "2016-01-01"
+    },
+    {
+      "tract": "44.00",
+      "effective_date": "2012-01-01"
+    },
+    {
+      "tract": "105.02",
+      "effective_date": "2012-01-01"
+    },
+    {
+      "tract": "108.06",
+      "effective_date": "2020-01-01"
+    },
+    {
+      "tract": "109.01",
+      "effective_date": "2016-01-01"
+    }
+  ],
+  "Columbia": [
+    {
+      "tract": "304.02",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "305.05",
+      "effective_date": "2019-01-01"
+    }
+  ],
+  "Evans": [
+    {
+      "tract": "9702.00",
+      "effective_date": "2019-01-01"
+    }
+  ],
+  "Houston": [
+    {
+      "tract": "213.00",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "214.00",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "215.00",
+      "effective_date": "2020-01-01"
+    },
+    {
+      "tract": "203.00",
+      "effective_date": "2007-01-01"
+    },
+    {
+      "tract": "204.00",
+      "effective_date": "2007-01-01"
+    },
+    {
+      "tract": "207.00",
+      "effective_date": "2007-01-01"
+    },
+    {
+      "tract": "211.05",
+      "effective_date": "2019-01-01"
+    }
+  ],
+  "Chattahoochee": [
+    {
+      "tract": "201.00",
+      "effective_date": "2009-01-01"
+    }
+  ],
+  "Cobb": [
+    {
+      "tract": "308.00",
+      "effective_date": "2011-01-01"
+    },
+    {
+      "tract": "310.01",
+      "effective_date": "2015-01-01"
+    },
+    {
+      "tract": "311.13",
+      "effective_date": "2017-01-01"
+    }
+  ],
+  "Jefferson": [
+    {
+      "tract": "9601.00",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "9603.00",
+      "effective_date": "2019-01-01"
+    }
+  ],
+  "Liberty": [
+    {
+      "tract": "102.08",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "105.01",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "105.02",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "101.01",
+      "effective_date": "2013-01-01"
+    },
+    {
+      "tract": "102.06",
+      "effective_date": "2013-01-01"
+    },
+    {
+      "tract": "105.02",
+      "effective_date": "2019-01-01"
+    }
+  ],
+  "Dougherty": [
+    {
+      "tract": "1.00",
+      "effective_date": "2009-01-01"
+    },
+    {
+      "tract": "116.00",
+      "effective_date": "2019-01-01"
+    }
+  ],
+  "Long": [
+    {
+      "tract": "9702.00",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "9701.00",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "9702.00",
+      "effective_date": "2020-01-01"
+    }
+  ],
+  "Lowndes": [
+    {
+      "tract": "102.02",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "108.00",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "114.02",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "114.03",
+      "effective_date": "2020-01-01"
+    },
+    {
+      "tract": "116.00",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "101.02",
+      "effective_date": "2019-01-01"
+    }
+  ],
+  "Lanier": [
+    {
+      "tract": "9502.00",
+      "effective_date": "2009-01-01"
+    }
+  ],
+  "Mcduffie": [
+    {
+      "tract": "9501.00",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "9504.00",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "9505.00",
+      "effective_date": "2019-01-01"
+    }
+  ],
+  "Muscogee": [
+    {
+      "tract": "108.02",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "33.01",
+      "effective_date": "2013-01-01"
+    },
+    {
+      "tract": "106.07",
+      "effective_date": "2013-01-01"
+    },
+    {
+      "tract": "106.08",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "107.02",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "107.03",
+      "effective_date": "2012-01-01"
+    },
+    {
+      "tract": "115.00",
+      "effective_date": "2013-01-01"
+    }
+  ],
+  "Richmond": [
+    {
+      "tract": "106.00",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "109.05",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "105.04",
+      "effective_date": "2012-01-01"
+    },
+    {
+      "tract": "107.11",
+      "effective_date": "2013-01-01"
+    },
+    {
+      "tract": "109.04",
+      "effective_date": "2020-01-01"
+    }
+  ],
+  "Marion": [
+    {
+      "tract": "9201.00",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "9202.00",
+      "effective_date": "2012-01-01"
+    }
+  ],
+  "Tattnall": [
+    {
+      "tract": "9504.00",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "9503.00",
+      "effective_date": "2019-01-01"
+    },
+    {
+      "tract": "9504.00",
+      "effective_date": "2019-01-01"
+    }
+  ],
+  "Of\nMuscogee": [
+    {
+      "tract": "34.00",
+      "effective_date": "2009-01-01"
+    }
+  ],
+  "Census \nMuscogee": [
+    {
+      "tract": "107.01",
+      "effective_date": "2020-01-01"
+    }
+  ],
+  "Designation \nRichmond": [
+    {
+      "tract": "107.07",
+      "effective_date": "2017-01-01"
+    }
+  ],
+  "Talbot": [
+    {
+      "tract": "9603.00",
+      "effective_date": "2014-01-01"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+[
+  {
+    "area": "Acworth",
+    "designated_date": "2021-03-05",
+    "start_year": 2021,
+    "end_year": 2030
+  },
+  {
+    "area": "Adairsville",
+    "designated_date": "2015-11-03",
+    "start_year": 2015,
+    "end_year": 2025
+  },
+  {
+    "area": "Albany Downtown",
+    "designated_date": "2023-12-23",
+    "start_year": 2023,
+    "end_year": 2032
+  },
+  {
+    "area": "Atlanta - Campbellton Road",
+    "designated_date": "2024-06-14",
+    "start_year": 2024,
+    "end_year": 2033
+  },
+  {
+    "area": "Atlanta - Downtown",
+    "designated_date": "2022-01-19",
+    "start_year": 2022,
+    "end_year": 2031
+  },
+  {
+    "area": "Atlanta - Donald Lee Hollowell Parkway - Grove Park",
+    "designated_date": "2019-05-03",
+    "start_year": 2019,
+    "end_year": 2028
+  },
+  {
+    "area": "Atlanta - Midtown #2",
+    "designated_date": "2020-01-30",
+    "start_year": 2020,
+    "end_year": 2029
+  },
+  {
+    "area": "Atlanta - MLK, Jr. Road",
+    "designated_date": "2024-06-14",
+    "start_year": 2024,
+    "end_year": 2033
+  },
+  {
+    "area": "Atlanta - Morris Brown and Murphy Crossing",
+    "designated_date": "2017-09-29",
+    "start_year": 2017,
+    "end_year": 2026
+  },
+  {
+    "area": "Atlanta - South Downtown",
+    "designated_date": "2018-03-13",
+    "start_year": 2018,
+    "end_year": 2027
+  },
+  {
+    "area": "Atlanta - Summerhill Neighborhood",
+    "designated_date": "2020-05-26",
+    "start_year": 2020,
+    "end_year": 2029
+  },
+  {
+    "area": "Baldwin",
+    "designated_date": "2016-04-19",
+    "start_year": 2016,
+    "end_year": 2026
+  },
+  {
+    "area": "Canton",
+    "designated_date": "2015-06-23",
+    "start_year": 2015,
+    "end_year": 2025
+  },
+  {
+    "area": "Colquitt (Miller County)",
+    "designated_date": "2018-03-13",
+    "start_year": 2018,
+    "end_year": 2027
+  },
+  {
+    "area": "Columbus",
+    "designated_date": "2020-02-13",
+    "start_year": 2020,
+    "end_year": 2028
+  },
+  {
+    "area": "Covington (Newton County)",
+    "designated_date": "2022-03-21",
+    "start_year": 2022,
+    "end_year": 2031
+  },
+  {
+    "area": "Forest Park (Clayton County)",
+    "designated_date": "2017-04-25",
+    "start_year": 2017,
+    "end_year": 2026
+  },
+  {
+    "area": "Forsyth (Monroe County)",
+    "designated_date": "2015-04-21",
+    "start_year": 2015,
+    "end_year": 2025
+  },
+  {
+    "area": "Fulton Industrial Boulevard - Fulton County and City of South Fulton",
+    "designated_date": "2023-12-23",
+    "start_year": 2023,
+    "end_year": 2032
+  },
+  {
+    "area": "West Gainesville/Hall County",
+    "designated_date": "2015-11-09",
+    "start_year": 2015,
+    "end_year": 2025
+  },
+  {
+    "area": "Griffin (Spalding County)",
+    "designated_date": "2020-11-18",
+    "start_year": 2020,
+    "end_year": 2029
+  },
+  {
+    "area": "Gwinnett County - Gateway 85",
+    "designated_date": "2021-02-26",
+    "start_year": 2021,
+    "end_year": 2030
+  },
+  {
+    "area": "Hawkinsville",
+    "designated_date": "2021-05-14",
+    "start_year": 2021,
+    "end_year": 2030
+  },
+  {
+    "area": "LaFayette",
+    "designated_date": "2015-06-23",
+    "start_year": 2015,
+    "end_year": 2025
+  },
+  {
+    "area": "Lake City",
+    "designated_date": "2016-04-19",
+    "start_year": 2016,
+    "end_year": 2026
+  },
+  {
+    "area": "Marietta (Cobb County)",
+    "designated_date": "2020-01-01",
+    "start_year": 2020,
+    "end_year": 2029
+  },
+  {
+    "area": "Perry - Downtown",
+    "designated_date": "2020-01-30",
+    "start_year": 2020,
+    "end_year": 2029
+  },
+  {
+    "area": "Perry - Gen. Courtney Hodges Blvd.",
+    "designated_date": "2021-01-04",
+    "start_year": 2021,
+    "end_year": 2030
+  },
+  {
+    "area": "Savannah",
+    "designated_date": "2016-04-19",
+    "start_year": 2016,
+    "end_year": 2026
+  },
+  {
+    "area": "West Point",
+    "designated_date": "2015-01-09",
+    "start_year": 2015,
+    "end_year": 2025
+  },
+  {
+    "area": "Winder",
+    "designated_date": "2015-01-09",
+    "start_year": 2015,
+    "end_year": 2025
+  }
+]
