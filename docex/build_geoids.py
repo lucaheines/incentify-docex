@@ -215,8 +215,8 @@ def main():
     parser.add_argument(
         "--geojson",
         type=Path,
-        default=Path("us-counties.geojson"),
-        help="Path to us-counties.geojson (default: ./us-counties.geojson)"
+        default=Path("data_folders/_reference/us-counties.geojson"),
+        help="Path to us-counties.geojson"
     )
     parser.add_argument(
         "--output", "-o",

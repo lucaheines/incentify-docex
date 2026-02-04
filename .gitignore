@@ -30,6 +30,10 @@ htmlcov/
 *.temp
 test_page_*.png
 
+# Output directory (generated files - not tracked)
+output/*
+!output/.gitkeep
+
 # Keep extracted data (remove this line if you don't want to track outputs)
 # data_folders/*/extracted/
 

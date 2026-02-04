@@ -73,6 +73,26 @@ python -m docex.validate compare 2022 2023 data_folders/GA_less_dev_cencus/extra
 python -m docex.validate spot-check Fulton data_folders/GA_less_dev_cencus/extracted/
 ```
 
+## Build Census Tract GEOIDs
+
+Generate full 11-digit GEOIDs (State + County FIPS + Tract) for use with GeoJSON/mapping:
+
+```bash
+# Get 2024 LDCT GEOIDs as comma-separated list
+python -m docex.build_geoids ldct 2024 data_folders/GA_less_dev_cencus/extracted/
+
+# All years combined
+python -m docex.build_geoids ldct all data_folders/GA_less_dev_cencus/extracted/
+
+# Military Zones
+python -m docex.build_geoids mz 2024 data_folders/GA_military_zones/extracted/
+
+# Save to output folder
+python -m docex.build_geoids ldct 2024 data_folders/GA_less_dev_cencus/extracted/ -o output/ldct_2024_geoids.csv
+```
+
+GEOID format: `13` (GA) + `177` (Lee County) + `020200` (Tract 202) = `13177020200`
+
 ## Data Sources
 
 PDFs are sourced from the Georgia Department of Community Affairs:
@@ -83,30 +103,35 @@ PDFs are sourced from the Georgia Department of Community Affairs:
 ## Project Structure
 
 ```
-docex/
-├── extractors/
-│   ├── ldct.py              # LDCT extractor (handles OCR for scanned PDFs)
-│   ├── military_zone.py     # Military Zone extractor
-│   └── opportunity_zone.py  # Opportunity Zone extractor
-├── schema/
-│   ├── ldct.py              # Pydantic models for LDCT
-│   ├── military_zone.py     # Pydantic models for MZ
-│   └── opportunity_zone.py  # Pydantic models for OZ
-├── utils/
-│   └── ocr.py               # OCR utilities for scanned PDFs
-├── main.py                  # CLI entry point
-└── validate.py              # Validation utilities
-
-data_folders/
-├── GA_less_dev_cencus/
-│   ├── *.pdf                # Source PDFs
-│   └── extracted/           # JSON outputs
-├── GA_military_zones/
-│   ├── *.pdf
-│   └── extracted/
-└── GA_opportunity_zones/
-    ├── *.pdf
-    └── extracted/
+incentify-docex/
+├── docex/                       # Extraction code
+│   ├── extractors/
+│   │   ├── ldct.py              # LDCT extractor (handles OCR)
+│   │   ├── military_zone.py     # Military Zone extractor
+│   │   └── opportunity_zone.py  # Opportunity Zone extractor
+│   ├── schema/                  # Pydantic models
+│   ├── utils/
+│   │   └── ocr.py               # OCR for scanned PDFs
+│   ├── main.py                  # Extraction CLI
+│   ├── validate.py              # Validation tools
+│   └── build_geoids.py          # GEOID builder
+│
+├── data_folders/
+│   ├── GA_less_dev_cencus/
+│   │   ├── *.pdf                # Source PDFs
+│   │   └── extracted/           # JSON outputs
+│   ├── GA_military_zones/
+│   │   ├── *.pdf
+│   │   └── extracted/
+│   ├── GA_opportunity_zones/
+│   │   ├── *.pdf
+│   │   └── extracted/
+│   └── _reference/
+│       └── us-counties.geojson  # County FIPS lookup
+│
+├── output/                      # Generated files (GEOIDs, etc.)
+├── requirements.txt
+└── README.md
 ```
 
 ## Extracted Data Summary
